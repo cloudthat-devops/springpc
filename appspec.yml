@@ -7,4 +7,4 @@ Resources:
         LoadBalancerInfo:
           ContainerName: "pc"
           ContainerPort: "8080"
-        PlatformVersion: "LATEST"
+        #PlatformVersion: "LATEST"
