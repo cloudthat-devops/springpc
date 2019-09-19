@@ -28,7 +28,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "869630519277.dkr.ecr.us-east-2.amazonaws.com/petclinic:latest",
+      "image": "<IMAGE1_NAME>",
       "startTimeout": null,
       "dependsOn": null,
       "disableNetworking": null,
