@@ -80,7 +80,7 @@
     "EC2"
   ],
   "networkMode": null,
-  "cpu": "null",
+  "cpu": null,
   "revision": 20,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
