@@ -24,7 +24,10 @@ phases:
       - echo Writing image definitions file...
       - printf '[{"name":"hello-world","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
-    files: imagedefinitions.json
+    files:
+      - imagedefinitions.json
+      - taskdef.json
+    
     
 #version: 0.2
 
