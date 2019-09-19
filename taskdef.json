@@ -48,12 +48,12 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "512",
+  "memory": "256",
   "taskRoleArn": "arn:aws:iam::869630519277:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:869630519277:task-definition/petclinic:14",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:869630519277:task-definition/petclinic:20",
   "family": "petclinic",
   "requiresAttributes": [
     {
@@ -80,8 +80,8 @@
     "EC2"
   ],
   "networkMode": null,
-  "cpu": "512",
-  "revision": 14,
+  "cpu": "256",
+  "revision": 20,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
