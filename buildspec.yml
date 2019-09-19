@@ -27,6 +27,7 @@ artifacts:
     files:
       - imagedefinitions.json
       - taskdef.json
+      - appspec.yml
     
     
 #version: 0.2
