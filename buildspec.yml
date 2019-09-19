@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo Build completed on `date`
+      #- echo Build completed on `date`
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - REPOSITORY_URI=869630519277.dkr.ecr.us-east-2.amazonaws.com/petclinic   
          
