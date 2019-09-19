@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-east-2:869630519277:task-definition/petclinic:14"
+        LoadBalancerInfo:
+          ContainerName: "pc"
+          ContainerPort: "8080"
+        PlatformVersion: "LATEST"
